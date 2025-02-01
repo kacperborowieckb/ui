@@ -1,0 +1,19 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "dev:prepare": "nuxt prepare"
+  },
+  "dependencies": {
+    "@kacperborowiec/ui": "link:../../packages/ui",
+    "huchet-vue": "link:../../packages/huchet-vue",
+    "nuxt": "^3.15.4",
+    "vue": "latest",
+    "vue-router": "latest"
+  }
+}
