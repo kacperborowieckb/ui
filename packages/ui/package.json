@@ -14,7 +14,8 @@
     "./nuxt": {
       "types": "./dist/nuxt.d.ts",
       "import": "./dist/nuxt.mjs"
-    }
+    },
+    "./theme": "./dist/theme.css"
   },
   "main": "./dist/index.mjs",
   "types": "dist/index.d.ts",

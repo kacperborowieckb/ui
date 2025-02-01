@@ -126,6 +126,9 @@ importers:
       '@kacperborowiec/ui':
         specifier: link:../../packages/ui
         version: link:../../packages/ui
+      packages.ui:
+        specifier: link:../../packages.ui
+        version: link:../../packages.ui
       vue:
         specifier: ^3.5.13
         version: 3.5.13(typescript@5.6.3)
@@ -2768,7 +2771,7 @@ packages:
       vue: ^3.2.25
     dependencies:
       vite: 6.0.11(@types/node@22.13.0)(jiti@2.4.2)
-      vue: 3.5.13(typescript@5.7.3)
+      vue: 3.5.13(typescript@5.6.3)
 
   /@vitest/eslint-plugin@1.1.25(@typescript-eslint/utils@8.22.0)(eslint@9.19.0)(typescript@5.7.3):
     resolution: {integrity: sha512-u8DpDnMbPcqBmJOB4PeEtn6q7vKmLVTLFMpzoxSAo0hjYdl4iYSHRleqwPQo0ywc7UV0S6RKIahYRQ3BnZdMVw==}
@@ -3070,7 +3073,7 @@ packages:
     dependencies:
       '@vue/compiler-ssr': 3.5.13
       '@vue/shared': 3.5.13
-      vue: 3.5.13(typescript@5.7.3)
+      vue: 3.5.13(typescript@5.6.3)
 
   /@vue/shared@3.5.13:
     resolution: {integrity: sha512-/hnE/qP5ZoGpol0a5mDi45bOd7t3tjYJBjsgCsivow7D48cJeV5l05RD82lPqi7gRiphZM37rnhW1l6ZoCNNnQ==}
