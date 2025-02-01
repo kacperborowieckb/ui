@@ -1,0 +1,17 @@
+{
+  "name": "kacperborowiec-ui-histoire",
+  "private": true,
+  "scripts": {
+    "dev": "histoire dev",
+    "build": "histoire build",
+    "serve": "histoire serve"
+  },
+  "devDependencies": {
+    "@histoire/plugin-vue": "^0.17.17",
+    "@tailwindcss/vite": "^4.0.0",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "histoire": "^0.17.17",
+    "tailwindcss": "^4.0.0",
+    "vue": "^3.5.13"
+  }
+}
