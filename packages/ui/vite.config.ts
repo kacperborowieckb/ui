@@ -1,7 +1,7 @@
 /// <reference types="vitest" />
 
-import { resolve } from 'node:path'
 import Vue from '@vitejs/plugin-vue'
+import { resolve } from 'node:path'
 import { defineConfig } from 'vite'
 import Dts from 'vite-plugin-dts'
 
@@ -14,8 +14,8 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': resolve(__dirname, './src')
-    }
+      '@': resolve(__dirname, './src'),
+    },
   },
   build: {
     cssCodeSplit: true,

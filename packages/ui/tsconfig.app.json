@@ -1,5 +1,11 @@
 {
   "extends": "@vue/tsconfig/tsconfig.dom.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
   "include": [
     "src/**/*.ts",
     "src/**/*.vue"
@@ -7,11 +13,5 @@
   "exclude": [
     "src/**/*.story.vue",
     "src/**/*.test.ts"
-  ],
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"],
-    }
-  }
+  ]
 }
