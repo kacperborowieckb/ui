@@ -1,6 +1,6 @@
 import type { ComponentResolver } from 'unplugin-vue-components'
 
-import { components } from './components'
+import { components } from '@/components'
 
 export interface ResolverOptions {
   /**

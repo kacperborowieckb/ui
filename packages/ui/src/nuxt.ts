@@ -1,7 +1,7 @@
 import type { } from '@nuxt/schema' // Mandatory to avoid a bug when building
 import { addComponent, addVitePlugin, defineNuxtModule } from '@nuxt/kit'
 
-import { components } from './components'
+import { components } from '@/components'
 
 export interface ModuleOptions {
   prefix: string

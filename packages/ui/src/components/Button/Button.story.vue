@@ -1,8 +1,3 @@
-<script lang="ts" setup>
-import { logEvent } from 'histoire/client'
-import Button from './Button.vue'
-</script>
-
 <template>
   <Story>
     <Variant title="Solid">
@@ -13,3 +8,9 @@ import Button from './Button.vue'
     </Variant>
   </Story>
 </template>
+
+<script lang="ts" setup>
+import { logEvent } from 'histoire/client'
+
+import Button from './Button.vue'
+</script>

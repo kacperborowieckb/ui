@@ -7,6 +7,10 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "build": "pnpm --filter './packages/**' prepack",
+    "ui:build": "pnpm -C ./packages/ui run build",
+    "ui:build:watch": "pnpm -C ./packages/ui run build:watch",
+    "dev:vue": "pnpm -C ./playground/vue run dev",
+    "dev:nuxt": "pnpm -C ./playground/vue run dev", 
     "test": "pnpm --filter './packages/**' run test",
     "typecheck": "pnpm --filter './packages/**' run typecheck",
     "release": "pnpm run lint && pnpm run typecheck && pnpm run test && changelogen --output CHANGELOG.md && jiti scripts/release.ts && pnpm -r run release:publish && git push --follow-tags"

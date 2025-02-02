@@ -21,7 +21,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "vite build",
-    "watch": "vite build --watch",
+    "build:watch": "vite build --watch",
     "typecheck": "vue-tsc -p tsconfig.app.json --noEmit",
     "test": "vitest run",
     "test:watch": "vitest",
