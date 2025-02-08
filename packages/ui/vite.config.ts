@@ -18,16 +18,15 @@ export default defineConfig({
     },
   },
   build: {
-    cssCodeSplit: true,
     lib: {
       formats: ['es'],
       name: 'kacperborowiec/ui',
       fileName: (_, name) => `${name}.mjs`,
+      cssFileName: 'base',
       entry: {
         index: resolve(__dirname, 'src/index.ts'),
         resolver: resolve(__dirname, 'src/resolver.ts'),
         nuxt: resolve(__dirname, 'src/nuxt.ts'),
-        theme: resolve(__dirname, 'src/theme.css'),
       },
     },
     rollupOptions: {

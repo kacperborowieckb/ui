@@ -1,54 +1,62 @@
-import { fireEvent, render, screen } from '@testing-library/vue'
-import { describe, expect, it } from 'vitest'
+import { shallowMount } from '@vue/test-utils'
 
 import Button from './Button.vue'
 
 describe('button', () => {
   it('should emit a click event when clicked', async () => {
-    const { emitted } = render(Button, {
-      props: {
-        label: 'Hello',
+    const wrapper = shallowMount(Button)
+
+    await wrapper.trigger('click')
+
+    expect(wrapper.emitted()).toHaveProperty('click')
+  })
+
+  it('should correctly render solid button', () => {
+    const wrapper = shallowMount(Button, {
+      slots: {
+        default: 'Submit',
       },
     })
 
-    await fireEvent.click(screen.getByText('Hello'))
-
-    expect(emitted()).toMatchInlineSnapshot(`
-      {
-        "click": [
-          [
-            MouseEvent {
-              "isTrusted": false,
-            },
-          ],
-        ],
-      }
-    `)
+    expect(wrapper.html()).toMatchSnapshot()
   })
 
-  describe('solid', () => {
-    it('should render a solid button', () => {
-      const button = render(Button, {
-        props: {
-          label: 'Hello',
-          variant: 'solid',
-        },
-      })
-
-      expect(button.html()).toMatchSnapshot()
+  it('should correctly render gradient button', () => {
+    const wrapper = shallowMount(Button, {
+      props: {
+        variant: 'gradient',
+      },
+      slots: {
+        default: 'Submit',
+      },
     })
+
+    expect(wrapper.html()).toMatchSnapshot()
   })
 
-  describe('outline', () => {
-    it('should render an outline button', () => {
-      const button = render(Button, {
-        props: {
-          label: 'Hello',
-          variant: 'outline',
-        },
-      })
-
-      expect(button.html()).toMatchSnapshot()
+  it('should correctly render outline button', () => {
+    const wrapper = shallowMount(Button, {
+      props: {
+        variant: 'outline',
+      },
+      slots: {
+        default: 'Submit',
+      },
     })
+
+    expect(wrapper.html()).toMatchSnapshot()
+  })
+
+  it('should correctly render animated button', () => {
+    const wrapper = shallowMount(Button, {
+      props: {
+        animated: true,
+      },
+      slots: {
+        default: 'Submit',
+      },
+    })
+
+    expect(wrapper.html()).toMatchSnapshot()
   })
 })

@@ -4,6 +4,7 @@ import eslintTailwind from 'eslint-plugin-tailwindcss'
 export default antfu({
   stylistic: {
     overrides: {
+      'curly': ['off'],
       'perfectionist/sort-imports': ['error', {
         type: 'natural',
         partitionByNewLine: false,
@@ -39,4 +40,7 @@ export default antfu({
     },
   },
   typescript: true,
+  rules: {
+    'tailwindcss/no-custom-classname': 'off',
+  },
 }).prepend(eslintTailwind.configs['flat/recommended'])

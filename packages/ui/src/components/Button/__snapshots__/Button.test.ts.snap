@@ -1,5 +1,25 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
-exports[`button > outline > should render an outline button 1`] = `"<button class="border-2 px-2.5 py-1.5 text-sm font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 border-blue-500 text-blue-500 hover:bg-blue-50 active:bg-blue-100">Hello</button>"`;
+exports[`button > should correctly render animated button 1`] = `
+"<button data-v-ceff2a60="" class="focus-visible:ring-offset-background focus-visible:ring-ring w-(--button-width) relative inline-flex cursor-pointer justify-center overflow-hidden rounded-md px-3 py-1 ring-offset-1 transition-colors duration-200 ease-out focus-visible:outline-none focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-75 bg-primary text-primary-foreground hover:bg-primary/90 active:bg-primary/85 active:text-primary-foreground/95" style="--button-width: 0px;">
+  <transition-stub data-v-ceff2a60="" name="shift" appear="false" persisted="false" css="true"><span data-v-ceff2a60="" class="inline-flex items-center gap-2">Submit</span></transition-stub>
+</button>"
+`;
 
-exports[`button > solid > should render a solid button 1`] = `"<button class="border-2 px-2.5 py-1.5 text-sm font-semibold focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 border-transparent bg-blue-500 text-white hover:bg-blue-600 active:bg-blue-700">Hello</button>"`;
+exports[`button > should correctly render gradient button 1`] = `
+"<button data-v-ceff2a60="" class="focus-visible:ring-offset-background focus-visible:ring-ring w-(--button-width) relative inline-flex cursor-pointer justify-center overflow-hidden rounded-md px-3 py-1 ring-offset-1 transition-colors duration-200 ease-out focus-visible:outline-none focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-75 bg-linear-[170deg] from-primary/85 to-primary hover:from-primary/80 hover:to-primary active:from-primary/75 active:to-primary/95 text-primary-foreground active:text-primary-foreground/95">
+  <v-template data-v-ceff2a60=""><span data-v-ceff2a60="" class="inline-flex items-center gap-2">Submit</span></v-template>
+</button>"
+`;
+
+exports[`button > should correctly render outline button 1`] = `
+"<button data-v-ceff2a60="" class="focus-visible:ring-offset-background focus-visible:ring-ring w-(--button-width) relative inline-flex cursor-pointer justify-center overflow-hidden rounded-md px-3 py-1 ring-offset-1 transition-colors duration-200 ease-out focus-visible:outline-none focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-75 border-input text-foreground hover:bg-accent/75 hover:text-accent-foreground active:bg-accent active:text-accent-foreground/80 border">
+  <v-template data-v-ceff2a60=""><span data-v-ceff2a60="" class="inline-flex items-center gap-2">Submit</span></v-template>
+</button>"
+`;
+
+exports[`button > should correctly render solid button 1`] = `
+"<button data-v-ceff2a60="" class="focus-visible:ring-offset-background focus-visible:ring-ring w-(--button-width) relative inline-flex cursor-pointer justify-center overflow-hidden rounded-md px-3 py-1 ring-offset-1 transition-colors duration-200 ease-out focus-visible:outline-none focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-75 bg-primary text-primary-foreground hover:bg-primary/90 active:bg-primary/85 active:text-primary-foreground/95">
+  <v-template data-v-ceff2a60=""><span data-v-ceff2a60="" class="inline-flex items-center gap-2">Submit</span></v-template>
+</button>"
+`;
