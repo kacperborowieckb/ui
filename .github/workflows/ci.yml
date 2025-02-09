@@ -14,16 +14,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Use Latest Corepack
-      - run: |
-          pnpm install -g corepack@latest
-          corepack enable
-      - uses: actions/checkout@v4
-      - run: corepack enable
-      - uses: actions/setup-node@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js and pnpm
+        uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: pnpm
+
+      - name: Install and Enable Latest Corepack
+        run: |
+          pnpm install -g corepack@latest
+          corepack enable
 
       - name: Install dependencies
         run: pnpm install
@@ -39,16 +42,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Use Latest Corepack
-      - run: |
-          pnpm install -g corepack@latest
-          corepack enable
-      - uses: actions/checkout@v4
-      - run: corepack enable
-      - uses: actions/setup-node@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js and pnpm
+        uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: pnpm
+
+      - name: Install and Enable Latest Corepack
+        run: |
+          pnpm install -g corepack@latest
+          corepack enable
 
       - name: Install dependencies
         run: pnpm install
@@ -61,16 +67,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Use Latest Corepack
-      - run: |
-          pnpm install -g corepack@latest
-          corepack enable
-      - uses: actions/checkout@v4
-      - run: corepack enable
-      - uses: actions/setup-node@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js and pnpm
+        uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: pnpm
+
+      - name: Install and Enable Latest Corepack
+        run: |
+          pnpm install -g corepack@latest
+          corepack enable
 
       - name: Install dependencies
         run: pnpm install
