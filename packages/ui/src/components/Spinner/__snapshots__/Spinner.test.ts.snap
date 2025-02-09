@@ -1,0 +1,3110 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`spinner > should render correctly 1`] = `
+VueWrapper {
+  "__app": {
+    "_component": {
+      "name": "VTU_ROOT",
+      "render": [Function],
+      "setup": [Function],
+    },
+    "_container": <div
+      data-v-app=""
+    >
+      <span
+        aria-label="Loading"
+        class="relative flex size-5 items-center justify-center"
+        data-v-bc6d31ca=""
+      >
+        
+        <span
+          class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+          data-v-bc6d31ca=""
+          style="--line-rotation: 0.00001deg; --line-delay: -1.20s;"
+        />
+        <span
+          class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+          data-v-bc6d31ca=""
+          style="--line-rotation: 30deg; --line-delay: -1.10s;"
+        />
+        <span
+          class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+          data-v-bc6d31ca=""
+          style="--line-rotation: 60deg; --line-delay: -1.00s;"
+        />
+        <span
+          class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+          data-v-bc6d31ca=""
+          style="--line-rotation: 90deg; --line-delay: -0.90s;"
+        />
+        <span
+          class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+          data-v-bc6d31ca=""
+          style="--line-rotation: 120deg; --line-delay: -0.80s;"
+        />
+        <span
+          class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+          data-v-bc6d31ca=""
+          style="--line-rotation: 150deg; --line-delay: -0.70s;"
+        />
+        <span
+          class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+          data-v-bc6d31ca=""
+          style="--line-rotation: 180deg; --line-delay: -0.60s;"
+        />
+        <span
+          class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+          data-v-bc6d31ca=""
+          style="--line-rotation: 210deg; --line-delay: -0.50s;"
+        />
+        <span
+          class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+          data-v-bc6d31ca=""
+          style="--line-rotation: 240deg; --line-delay: -0.40s;"
+        />
+        <span
+          class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+          data-v-bc6d31ca=""
+          style="--line-rotation: 270deg; --line-delay: -0.30s;"
+        />
+        <span
+          class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+          data-v-bc6d31ca=""
+          style="--line-rotation: 300deg; --line-delay: -0.20s;"
+        />
+        <span
+          class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+          data-v-bc6d31ca=""
+          style="--line-rotation: 330deg; --line-delay: -0.10s;"
+        />
+        
+      </span>
+    </div>,
+    "_context": {
+      "app": [Circular],
+      "components": {
+        "transition": {
+          "name": "transition",
+        },
+        "transition-group": {
+          "name": "transition-group",
+        },
+      },
+      "config": {
+        "compilerOptions": {},
+        "errorHandler": undefined,
+        "globalProperties": {},
+        "isNativeTag": [Function],
+        "optionMergeStrategies": {},
+        "performance": false,
+        "warnHandler": undefined,
+      },
+      "directives": {},
+      "emitsCache": WeakMap {},
+      "mixins": [
+        {
+          "beforeCreate": [Function],
+        },
+      ],
+      "optionsCache": WeakMap {},
+      "propsCache": WeakMap {},
+      "provides": {},
+      "reload": [Function],
+    },
+    "_instance": {
+      "a": null,
+      "accessCache": {},
+      "appContext": {
+        "app": [Circular],
+        "components": {
+          "transition": {
+            "name": "transition",
+          },
+          "transition-group": {
+            "name": "transition-group",
+          },
+        },
+        "config": {
+          "compilerOptions": {},
+          "errorHandler": undefined,
+          "globalProperties": {},
+          "isNativeTag": [Function],
+          "optionMergeStrategies": {},
+          "performance": false,
+          "warnHandler": undefined,
+        },
+        "directives": {},
+        "emitsCache": WeakMap {},
+        "mixins": [
+          {
+            "beforeCreate": [Function],
+          },
+        ],
+        "optionsCache": WeakMap {},
+        "propsCache": WeakMap {},
+        "provides": {},
+        "reload": [Function],
+      },
+      "asyncDep": null,
+      "asyncResolved": false,
+      "attrs": {},
+      "bc": null,
+      "bm": null,
+      "bu": null,
+      "bum": null,
+      "c": null,
+      "components": null,
+      "ctx": {
+        "VTU_COMPONENT": {},
+      },
+      "da": null,
+      "data": {},
+      "devtoolsRawSetupState": {
+        "VTU_COMPONENT": RefImpl {
+          "__v_isRef": true,
+          "__v_isShallow": false,
+          "_rawValue": {},
+          "_value": {},
+          "dep": Dep {
+            "activeLink": undefined,
+            "computed": undefined,
+            "key": undefined,
+            "map": undefined,
+            "sc": 0,
+            "subs": undefined,
+            "subsHead": undefined,
+            "version": 1,
+          },
+        },
+      },
+      "directives": null,
+      "ec": null,
+      "effect": ReactiveEffect {
+        "cleanup": undefined,
+        "deps": Link {
+          "dep": Dep {
+            "activeLink": undefined,
+            "computed": undefined,
+            "key": Symbol(Object iterate),
+            "map": Map {
+              Symbol(Object iterate) => [Circular],
+              "ref" => Dep {
+                "activeLink": undefined,
+                "computed": undefined,
+                "key": "ref",
+                "map": [Circular],
+                "sc": 1,
+                "subs": Link {
+                  "dep": [Circular],
+                  "nextDep": Link {
+                    "dep": Dep {
+                      "activeLink": undefined,
+                      "computed": undefined,
+                      "key": Symbol(Object iterate),
+                      "map": Map {
+                        Symbol(Object iterate) => [Circular],
+                      },
+                      "sc": 1,
+                      "subs": [Circular],
+                      "subsHead": [Circular],
+                      "version": 0,
+                    },
+                    "nextDep": undefined,
+                    "nextSub": undefined,
+                    "prevActiveLink": undefined,
+                    "prevDep": [Circular],
+                    "prevSub": undefined,
+                    "sub": [Circular],
+                    "version": 0,
+                  },
+                  "nextSub": undefined,
+                  "prevActiveLink": undefined,
+                  "prevDep": [Circular],
+                  "prevSub": undefined,
+                  "sub": [Circular],
+                  "version": 0,
+                },
+                "subsHead": Link {
+                  "dep": [Circular],
+                  "nextDep": Link {
+                    "dep": Dep {
+                      "activeLink": undefined,
+                      "computed": undefined,
+                      "key": Symbol(Object iterate),
+                      "map": Map {
+                        Symbol(Object iterate) => [Circular],
+                      },
+                      "sc": 1,
+                      "subs": [Circular],
+                      "subsHead": [Circular],
+                      "version": 0,
+                    },
+                    "nextDep": undefined,
+                    "nextSub": undefined,
+                    "prevActiveLink": undefined,
+                    "prevDep": [Circular],
+                    "prevSub": undefined,
+                    "sub": [Circular],
+                    "version": 0,
+                  },
+                  "nextSub": undefined,
+                  "prevActiveLink": undefined,
+                  "prevDep": [Circular],
+                  "prevSub": undefined,
+                  "sub": [Circular],
+                  "version": 0,
+                },
+                "version": 0,
+              },
+            },
+            "sc": 1,
+            "subs": [Circular],
+            "subsHead": [Circular],
+            "version": 0,
+          },
+          "nextDep": Link {
+            "dep": Dep {
+              "activeLink": undefined,
+              "computed": undefined,
+              "key": "ref",
+              "map": Map {
+                Symbol(Object iterate) => Dep {
+                  "activeLink": undefined,
+                  "computed": undefined,
+                  "key": Symbol(Object iterate),
+                  "map": [Circular],
+                  "sc": 1,
+                  "subs": [Circular],
+                  "subsHead": [Circular],
+                  "version": 0,
+                },
+                "ref" => [Circular],
+              },
+              "sc": 1,
+              "subs": [Circular],
+              "subsHead": [Circular],
+              "version": 0,
+            },
+            "nextDep": Link {
+              "dep": Dep {
+                "activeLink": undefined,
+                "computed": undefined,
+                "key": Symbol(Object iterate),
+                "map": Map {
+                  Symbol(Object iterate) => [Circular],
+                },
+                "sc": 1,
+                "subs": [Circular],
+                "subsHead": [Circular],
+                "version": 0,
+              },
+              "nextDep": undefined,
+              "nextSub": undefined,
+              "prevActiveLink": undefined,
+              "prevDep": [Circular],
+              "prevSub": undefined,
+              "sub": [Circular],
+              "version": 0,
+            },
+            "nextSub": undefined,
+            "prevActiveLink": undefined,
+            "prevDep": [Circular],
+            "prevSub": undefined,
+            "sub": [Circular],
+            "version": 0,
+          },
+          "nextSub": undefined,
+          "prevActiveLink": undefined,
+          "prevDep": undefined,
+          "prevSub": undefined,
+          "sub": [Circular],
+          "version": 0,
+        },
+        "depsTail": Link {
+          "dep": Dep {
+            "activeLink": undefined,
+            "computed": undefined,
+            "key": Symbol(Object iterate),
+            "map": Map {
+              Symbol(Object iterate) => [Circular],
+            },
+            "sc": 1,
+            "subs": [Circular],
+            "subsHead": [Circular],
+            "version": 0,
+          },
+          "nextDep": undefined,
+          "nextSub": undefined,
+          "prevActiveLink": undefined,
+          "prevDep": Link {
+            "dep": Dep {
+              "activeLink": undefined,
+              "computed": undefined,
+              "key": "ref",
+              "map": Map {
+                Symbol(Object iterate) => Dep {
+                  "activeLink": undefined,
+                  "computed": undefined,
+                  "key": Symbol(Object iterate),
+                  "map": [Circular],
+                  "sc": 1,
+                  "subs": Link {
+                    "dep": [Circular],
+                    "nextDep": [Circular],
+                    "nextSub": undefined,
+                    "prevActiveLink": undefined,
+                    "prevDep": undefined,
+                    "prevSub": undefined,
+                    "sub": [Circular],
+                    "version": 0,
+                  },
+                  "subsHead": Link {
+                    "dep": [Circular],
+                    "nextDep": [Circular],
+                    "nextSub": undefined,
+                    "prevActiveLink": undefined,
+                    "prevDep": undefined,
+                    "prevSub": undefined,
+                    "sub": [Circular],
+                    "version": 0,
+                  },
+                  "version": 0,
+                },
+                "ref" => [Circular],
+              },
+              "sc": 1,
+              "subs": [Circular],
+              "subsHead": [Circular],
+              "version": 0,
+            },
+            "nextDep": [Circular],
+            "nextSub": undefined,
+            "prevActiveLink": undefined,
+            "prevDep": Link {
+              "dep": Dep {
+                "activeLink": undefined,
+                "computed": undefined,
+                "key": Symbol(Object iterate),
+                "map": Map {
+                  Symbol(Object iterate) => [Circular],
+                  "ref" => Dep {
+                    "activeLink": undefined,
+                    "computed": undefined,
+                    "key": "ref",
+                    "map": [Circular],
+                    "sc": 1,
+                    "subs": [Circular],
+                    "subsHead": [Circular],
+                    "version": 0,
+                  },
+                },
+                "sc": 1,
+                "subs": [Circular],
+                "subsHead": [Circular],
+                "version": 0,
+              },
+              "nextDep": [Circular],
+              "nextSub": undefined,
+              "prevActiveLink": undefined,
+              "prevDep": undefined,
+              "prevSub": undefined,
+              "sub": [Circular],
+              "version": 0,
+            },
+            "prevSub": undefined,
+            "sub": [Circular],
+            "version": 0,
+          },
+          "prevSub": undefined,
+          "sub": [Circular],
+          "version": 0,
+        },
+        "flags": 37,
+        "fn": [Function],
+        "next": undefined,
+        "onTrack": undefined,
+        "onTrigger": undefined,
+        "scheduler": [Function],
+      },
+      "emit": [Function],
+      "emitsOptions": null,
+      "emitted": null,
+      "exposeProxy": null,
+      "exposed": null,
+      "ids": [
+        "",
+        0,
+        0,
+      ],
+      "inheritAttrs": undefined,
+      "isDeactivated": false,
+      "isMounted": true,
+      "isUnmounted": false,
+      "job": [Function],
+      "m": null,
+      "next": null,
+      "parent": null,
+      "props": {},
+      "propsDefaults": {},
+      "propsOptions": [
+        {},
+        [],
+      ],
+      "provides": {},
+      "proxy": {
+        "VTU_COMPONENT": {},
+      },
+      "refs": {
+        "VTU_COMPONENT": {},
+      },
+      "render": [Function],
+      "renderCache": [],
+      "root": [Circular],
+      "rtc": null,
+      "rtg": null,
+      "scope": EffectScope {
+        "_active": true,
+        "_isPaused": false,
+        "cleanups": [],
+        "detached": true,
+        "effects": [
+          ReactiveEffect {
+            "cleanup": undefined,
+            "deps": Link {
+              "dep": Dep {
+                "activeLink": undefined,
+                "computed": undefined,
+                "key": Symbol(Object iterate),
+                "map": Map {
+                  Symbol(Object iterate) => [Circular],
+                  "ref" => Dep {
+                    "activeLink": undefined,
+                    "computed": undefined,
+                    "key": "ref",
+                    "map": [Circular],
+                    "sc": 1,
+                    "subs": Link {
+                      "dep": [Circular],
+                      "nextDep": Link {
+                        "dep": Dep {
+                          "activeLink": undefined,
+                          "computed": undefined,
+                          "key": Symbol(Object iterate),
+                          "map": Map {
+                            Symbol(Object iterate) => [Circular],
+                          },
+                          "sc": 1,
+                          "subs": [Circular],
+                          "subsHead": [Circular],
+                          "version": 0,
+                        },
+                        "nextDep": undefined,
+                        "nextSub": undefined,
+                        "prevActiveLink": undefined,
+                        "prevDep": [Circular],
+                        "prevSub": undefined,
+                        "sub": [Circular],
+                        "version": 0,
+                      },
+                      "nextSub": undefined,
+                      "prevActiveLink": undefined,
+                      "prevDep": [Circular],
+                      "prevSub": undefined,
+                      "sub": [Circular],
+                      "version": 0,
+                    },
+                    "subsHead": Link {
+                      "dep": [Circular],
+                      "nextDep": Link {
+                        "dep": Dep {
+                          "activeLink": undefined,
+                          "computed": undefined,
+                          "key": Symbol(Object iterate),
+                          "map": Map {
+                            Symbol(Object iterate) => [Circular],
+                          },
+                          "sc": 1,
+                          "subs": [Circular],
+                          "subsHead": [Circular],
+                          "version": 0,
+                        },
+                        "nextDep": undefined,
+                        "nextSub": undefined,
+                        "prevActiveLink": undefined,
+                        "prevDep": [Circular],
+                        "prevSub": undefined,
+                        "sub": [Circular],
+                        "version": 0,
+                      },
+                      "nextSub": undefined,
+                      "prevActiveLink": undefined,
+                      "prevDep": [Circular],
+                      "prevSub": undefined,
+                      "sub": [Circular],
+                      "version": 0,
+                    },
+                    "version": 0,
+                  },
+                },
+                "sc": 1,
+                "subs": [Circular],
+                "subsHead": [Circular],
+                "version": 0,
+              },
+              "nextDep": Link {
+                "dep": Dep {
+                  "activeLink": undefined,
+                  "computed": undefined,
+                  "key": "ref",
+                  "map": Map {
+                    Symbol(Object iterate) => Dep {
+                      "activeLink": undefined,
+                      "computed": undefined,
+                      "key": Symbol(Object iterate),
+                      "map": [Circular],
+                      "sc": 1,
+                      "subs": [Circular],
+                      "subsHead": [Circular],
+                      "version": 0,
+                    },
+                    "ref" => [Circular],
+                  },
+                  "sc": 1,
+                  "subs": [Circular],
+                  "subsHead": [Circular],
+                  "version": 0,
+                },
+                "nextDep": Link {
+                  "dep": Dep {
+                    "activeLink": undefined,
+                    "computed": undefined,
+                    "key": Symbol(Object iterate),
+                    "map": Map {
+                      Symbol(Object iterate) => [Circular],
+                    },
+                    "sc": 1,
+                    "subs": [Circular],
+                    "subsHead": [Circular],
+                    "version": 0,
+                  },
+                  "nextDep": undefined,
+                  "nextSub": undefined,
+                  "prevActiveLink": undefined,
+                  "prevDep": [Circular],
+                  "prevSub": undefined,
+                  "sub": [Circular],
+                  "version": 0,
+                },
+                "nextSub": undefined,
+                "prevActiveLink": undefined,
+                "prevDep": [Circular],
+                "prevSub": undefined,
+                "sub": [Circular],
+                "version": 0,
+              },
+              "nextSub": undefined,
+              "prevActiveLink": undefined,
+              "prevDep": undefined,
+              "prevSub": undefined,
+              "sub": [Circular],
+              "version": 0,
+            },
+            "depsTail": Link {
+              "dep": Dep {
+                "activeLink": undefined,
+                "computed": undefined,
+                "key": Symbol(Object iterate),
+                "map": Map {
+                  Symbol(Object iterate) => [Circular],
+                },
+                "sc": 1,
+                "subs": [Circular],
+                "subsHead": [Circular],
+                "version": 0,
+              },
+              "nextDep": undefined,
+              "nextSub": undefined,
+              "prevActiveLink": undefined,
+              "prevDep": Link {
+                "dep": Dep {
+                  "activeLink": undefined,
+                  "computed": undefined,
+                  "key": "ref",
+                  "map": Map {
+                    Symbol(Object iterate) => Dep {
+                      "activeLink": undefined,
+                      "computed": undefined,
+                      "key": Symbol(Object iterate),
+                      "map": [Circular],
+                      "sc": 1,
+                      "subs": Link {
+                        "dep": [Circular],
+                        "nextDep": [Circular],
+                        "nextSub": undefined,
+                        "prevActiveLink": undefined,
+                        "prevDep": undefined,
+                        "prevSub": undefined,
+                        "sub": [Circular],
+                        "version": 0,
+                      },
+                      "subsHead": Link {
+                        "dep": [Circular],
+                        "nextDep": [Circular],
+                        "nextSub": undefined,
+                        "prevActiveLink": undefined,
+                        "prevDep": undefined,
+                        "prevSub": undefined,
+                        "sub": [Circular],
+                        "version": 0,
+                      },
+                      "version": 0,
+                    },
+                    "ref" => [Circular],
+                  },
+                  "sc": 1,
+                  "subs": [Circular],
+                  "subsHead": [Circular],
+                  "version": 0,
+                },
+                "nextDep": [Circular],
+                "nextSub": undefined,
+                "prevActiveLink": undefined,
+                "prevDep": Link {
+                  "dep": Dep {
+                    "activeLink": undefined,
+                    "computed": undefined,
+                    "key": Symbol(Object iterate),
+                    "map": Map {
+                      Symbol(Object iterate) => [Circular],
+                      "ref" => Dep {
+                        "activeLink": undefined,
+                        "computed": undefined,
+                        "key": "ref",
+                        "map": [Circular],
+                        "sc": 1,
+                        "subs": [Circular],
+                        "subsHead": [Circular],
+                        "version": 0,
+                      },
+                    },
+                    "sc": 1,
+                    "subs": [Circular],
+                    "subsHead": [Circular],
+                    "version": 0,
+                  },
+                  "nextDep": [Circular],
+                  "nextSub": undefined,
+                  "prevActiveLink": undefined,
+                  "prevDep": undefined,
+                  "prevSub": undefined,
+                  "sub": [Circular],
+                  "version": 0,
+                },
+                "prevSub": undefined,
+                "sub": [Circular],
+                "version": 0,
+              },
+              "prevSub": undefined,
+              "sub": [Circular],
+              "version": 0,
+            },
+            "flags": 37,
+            "fn": [Function],
+            "next": undefined,
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "scheduler": [Function],
+          },
+        ],
+        "parent": undefined,
+      },
+      "setupContext": null,
+      "setupState": {
+        "VTU_COMPONENT": {},
+      },
+      "slots": {},
+      "sp": null,
+      "subTree": {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": null,
+        "children": null,
+        "component": {
+          "a": null,
+          "accessCache": {},
+          "appContext": {
+            "app": [Circular],
+            "components": {
+              "transition": {
+                "name": "transition",
+              },
+              "transition-group": {
+                "name": "transition-group",
+              },
+            },
+            "config": {
+              "compilerOptions": {},
+              "errorHandler": undefined,
+              "globalProperties": {},
+              "isNativeTag": [Function],
+              "optionMergeStrategies": {},
+              "performance": false,
+              "warnHandler": undefined,
+            },
+            "directives": {},
+            "emitsCache": WeakMap {},
+            "mixins": [
+              {
+                "beforeCreate": [Function],
+              },
+            ],
+            "optionsCache": WeakMap {},
+            "propsCache": WeakMap {},
+            "provides": {},
+            "reload": [Function],
+          },
+          "asyncDep": null,
+          "asyncResolved": false,
+          "attrs": {},
+          "bc": null,
+          "bm": null,
+          "bu": null,
+          "bum": null,
+          "c": null,
+          "components": {},
+          "ctx": {
+            "variant": "foreground",
+          },
+          "da": null,
+          "data": {},
+          "devtoolsRawSetupState": {
+            "props": {
+              "variant": "foreground",
+            },
+            "spinnerColorClasses": ComputedRefImpl {
+              "__v_isReadonly": true,
+              "__v_isRef": true,
+              "_value": " bg-primary-foreground",
+              "dep": Dep {
+                "activeLink": undefined,
+                "computed": [Circular],
+                "key": undefined,
+                "map": undefined,
+                "sc": 1,
+                "subs": Link {
+                  "dep": [Circular],
+                  "nextDep": undefined,
+                  "nextSub": undefined,
+                  "prevActiveLink": undefined,
+                  "prevDep": undefined,
+                  "prevSub": undefined,
+                  "sub": ReactiveEffect {
+                    "cleanup": undefined,
+                    "deps": [Circular],
+                    "depsTail": [Circular],
+                    "flags": 37,
+                    "fn": [Function],
+                    "next": undefined,
+                    "onTrack": undefined,
+                    "onTrigger": undefined,
+                    "scheduler": [Function],
+                  },
+                  "version": 1,
+                },
+                "subsHead": Link {
+                  "dep": [Circular],
+                  "nextDep": undefined,
+                  "nextSub": undefined,
+                  "prevActiveLink": undefined,
+                  "prevDep": undefined,
+                  "prevSub": undefined,
+                  "sub": ReactiveEffect {
+                    "cleanup": undefined,
+                    "deps": [Circular],
+                    "depsTail": [Circular],
+                    "flags": 37,
+                    "fn": [Function],
+                    "next": undefined,
+                    "onTrack": undefined,
+                    "onTrigger": undefined,
+                    "scheduler": [Function],
+                  },
+                  "version": 1,
+                },
+                "version": 1,
+              },
+              "deps": Link {
+                "dep": Dep {
+                  "activeLink": undefined,
+                  "computed": undefined,
+                  "key": "variant",
+                  "map": Map {
+                    "variant" => [Circular],
+                  },
+                  "sc": 1,
+                  "subs": [Circular],
+                  "subsHead": [Circular],
+                  "version": 0,
+                },
+                "nextDep": undefined,
+                "nextSub": undefined,
+                "prevActiveLink": undefined,
+                "prevDep": undefined,
+                "prevSub": undefined,
+                "sub": [Circular],
+                "version": 0,
+              },
+              "depsTail": Link {
+                "dep": Dep {
+                  "activeLink": undefined,
+                  "computed": undefined,
+                  "key": "variant",
+                  "map": Map {
+                    "variant" => [Circular],
+                  },
+                  "sc": 1,
+                  "subs": [Circular],
+                  "subsHead": [Circular],
+                  "version": 0,
+                },
+                "nextDep": undefined,
+                "nextSub": undefined,
+                "prevActiveLink": undefined,
+                "prevDep": undefined,
+                "prevSub": undefined,
+                "sub": [Circular],
+                "version": 0,
+              },
+              "effect": [Circular],
+              "flags": 4,
+              "fn": [Function],
+              "globalVersion": 1,
+              "isSSR": false,
+              "next": undefined,
+              "setter": undefined,
+            },
+            "spinnerLines": [
+              {
+                "style": {
+                  "--line-delay": "-1.20s",
+                  "--line-rotation": "0.00001deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-1.10s",
+                  "--line-rotation": "30deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-1.00s",
+                  "--line-rotation": "60deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.90s",
+                  "--line-rotation": "90deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.80s",
+                  "--line-rotation": "120deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.70s",
+                  "--line-rotation": "150deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.60s",
+                  "--line-rotation": "180deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.50s",
+                  "--line-rotation": "210deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.40s",
+                  "--line-rotation": "240deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.30s",
+                  "--line-rotation": "270deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.20s",
+                  "--line-rotation": "300deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.10s",
+                  "--line-rotation": "330deg",
+                },
+              },
+            ],
+          },
+          "directives": null,
+          "ec": null,
+          "effect": ReactiveEffect {
+            "cleanup": undefined,
+            "deps": Link {
+              "dep": Dep {
+                "activeLink": undefined,
+                "computed": ComputedRefImpl {
+                  "__v_isReadonly": true,
+                  "__v_isRef": true,
+                  "_value": " bg-primary-foreground",
+                  "dep": [Circular],
+                  "deps": Link {
+                    "dep": Dep {
+                      "activeLink": undefined,
+                      "computed": undefined,
+                      "key": "variant",
+                      "map": Map {
+                        "variant" => [Circular],
+                      },
+                      "sc": 1,
+                      "subs": [Circular],
+                      "subsHead": [Circular],
+                      "version": 0,
+                    },
+                    "nextDep": undefined,
+                    "nextSub": undefined,
+                    "prevActiveLink": undefined,
+                    "prevDep": undefined,
+                    "prevSub": undefined,
+                    "sub": [Circular],
+                    "version": 0,
+                  },
+                  "depsTail": Link {
+                    "dep": Dep {
+                      "activeLink": undefined,
+                      "computed": undefined,
+                      "key": "variant",
+                      "map": Map {
+                        "variant" => [Circular],
+                      },
+                      "sc": 1,
+                      "subs": [Circular],
+                      "subsHead": [Circular],
+                      "version": 0,
+                    },
+                    "nextDep": undefined,
+                    "nextSub": undefined,
+                    "prevActiveLink": undefined,
+                    "prevDep": undefined,
+                    "prevSub": undefined,
+                    "sub": [Circular],
+                    "version": 0,
+                  },
+                  "effect": [Circular],
+                  "flags": 4,
+                  "fn": [Function],
+                  "globalVersion": 1,
+                  "isSSR": false,
+                  "next": undefined,
+                  "setter": undefined,
+                },
+                "key": undefined,
+                "map": undefined,
+                "sc": 1,
+                "subs": [Circular],
+                "subsHead": [Circular],
+                "version": 1,
+              },
+              "nextDep": undefined,
+              "nextSub": undefined,
+              "prevActiveLink": undefined,
+              "prevDep": undefined,
+              "prevSub": undefined,
+              "sub": [Circular],
+              "version": 1,
+            },
+            "depsTail": Link {
+              "dep": Dep {
+                "activeLink": undefined,
+                "computed": ComputedRefImpl {
+                  "__v_isReadonly": true,
+                  "__v_isRef": true,
+                  "_value": " bg-primary-foreground",
+                  "dep": [Circular],
+                  "deps": Link {
+                    "dep": Dep {
+                      "activeLink": undefined,
+                      "computed": undefined,
+                      "key": "variant",
+                      "map": Map {
+                        "variant" => [Circular],
+                      },
+                      "sc": 1,
+                      "subs": [Circular],
+                      "subsHead": [Circular],
+                      "version": 0,
+                    },
+                    "nextDep": undefined,
+                    "nextSub": undefined,
+                    "prevActiveLink": undefined,
+                    "prevDep": undefined,
+                    "prevSub": undefined,
+                    "sub": [Circular],
+                    "version": 0,
+                  },
+                  "depsTail": Link {
+                    "dep": Dep {
+                      "activeLink": undefined,
+                      "computed": undefined,
+                      "key": "variant",
+                      "map": Map {
+                        "variant" => [Circular],
+                      },
+                      "sc": 1,
+                      "subs": [Circular],
+                      "subsHead": [Circular],
+                      "version": 0,
+                    },
+                    "nextDep": undefined,
+                    "nextSub": undefined,
+                    "prevActiveLink": undefined,
+                    "prevDep": undefined,
+                    "prevSub": undefined,
+                    "sub": [Circular],
+                    "version": 0,
+                  },
+                  "effect": [Circular],
+                  "flags": 4,
+                  "fn": [Function],
+                  "globalVersion": 1,
+                  "isSSR": false,
+                  "next": undefined,
+                  "setter": undefined,
+                },
+                "key": undefined,
+                "map": undefined,
+                "sc": 1,
+                "subs": [Circular],
+                "subsHead": [Circular],
+                "version": 1,
+              },
+              "nextDep": undefined,
+              "nextSub": undefined,
+              "prevActiveLink": undefined,
+              "prevDep": undefined,
+              "prevSub": undefined,
+              "sub": [Circular],
+              "version": 1,
+            },
+            "flags": 37,
+            "fn": [Function],
+            "next": undefined,
+            "onTrack": undefined,
+            "onTrigger": undefined,
+            "scheduler": [Function],
+          },
+          "emit": [Function],
+          "emitsOptions": null,
+          "emitted": null,
+          "exposeProxy": {},
+          "exposed": {},
+          "ids": [
+            "",
+            0,
+            0,
+          ],
+          "inheritAttrs": undefined,
+          "isDeactivated": false,
+          "isMounted": true,
+          "isUnmounted": false,
+          "job": [Function],
+          "m": null,
+          "next": null,
+          "parent": [Circular],
+          "props": {
+            "variant": "foreground",
+          },
+          "propsDefaults": {},
+          "propsOptions": [
+            {
+              "variant": {
+                "0": false,
+                "1": true,
+                "default": "foreground",
+                "required": true,
+                "type": [Function],
+              },
+            },
+            [
+              "variant",
+            ],
+          ],
+          "provides": {},
+          "proxy": {
+            "variant": "foreground",
+          },
+          "refs": {},
+          "render": [Function],
+          "renderCache": [],
+          "root": [Circular],
+          "rtc": null,
+          "rtg": null,
+          "scope": EffectScope {
+            "_active": true,
+            "_isPaused": false,
+            "cleanups": [],
+            "detached": true,
+            "effects": [
+              ReactiveEffect {
+                "cleanup": undefined,
+                "deps": Link {
+                  "dep": Dep {
+                    "activeLink": undefined,
+                    "computed": ComputedRefImpl {
+                      "__v_isReadonly": true,
+                      "__v_isRef": true,
+                      "_value": " bg-primary-foreground",
+                      "dep": [Circular],
+                      "deps": Link {
+                        "dep": Dep {
+                          "activeLink": undefined,
+                          "computed": undefined,
+                          "key": "variant",
+                          "map": Map {
+                            "variant" => [Circular],
+                          },
+                          "sc": 1,
+                          "subs": [Circular],
+                          "subsHead": [Circular],
+                          "version": 0,
+                        },
+                        "nextDep": undefined,
+                        "nextSub": undefined,
+                        "prevActiveLink": undefined,
+                        "prevDep": undefined,
+                        "prevSub": undefined,
+                        "sub": [Circular],
+                        "version": 0,
+                      },
+                      "depsTail": Link {
+                        "dep": Dep {
+                          "activeLink": undefined,
+                          "computed": undefined,
+                          "key": "variant",
+                          "map": Map {
+                            "variant" => [Circular],
+                          },
+                          "sc": 1,
+                          "subs": [Circular],
+                          "subsHead": [Circular],
+                          "version": 0,
+                        },
+                        "nextDep": undefined,
+                        "nextSub": undefined,
+                        "prevActiveLink": undefined,
+                        "prevDep": undefined,
+                        "prevSub": undefined,
+                        "sub": [Circular],
+                        "version": 0,
+                      },
+                      "effect": [Circular],
+                      "flags": 4,
+                      "fn": [Function],
+                      "globalVersion": 1,
+                      "isSSR": false,
+                      "next": undefined,
+                      "setter": undefined,
+                    },
+                    "key": undefined,
+                    "map": undefined,
+                    "sc": 1,
+                    "subs": [Circular],
+                    "subsHead": [Circular],
+                    "version": 1,
+                  },
+                  "nextDep": undefined,
+                  "nextSub": undefined,
+                  "prevActiveLink": undefined,
+                  "prevDep": undefined,
+                  "prevSub": undefined,
+                  "sub": [Circular],
+                  "version": 1,
+                },
+                "depsTail": Link {
+                  "dep": Dep {
+                    "activeLink": undefined,
+                    "computed": ComputedRefImpl {
+                      "__v_isReadonly": true,
+                      "__v_isRef": true,
+                      "_value": " bg-primary-foreground",
+                      "dep": [Circular],
+                      "deps": Link {
+                        "dep": Dep {
+                          "activeLink": undefined,
+                          "computed": undefined,
+                          "key": "variant",
+                          "map": Map {
+                            "variant" => [Circular],
+                          },
+                          "sc": 1,
+                          "subs": [Circular],
+                          "subsHead": [Circular],
+                          "version": 0,
+                        },
+                        "nextDep": undefined,
+                        "nextSub": undefined,
+                        "prevActiveLink": undefined,
+                        "prevDep": undefined,
+                        "prevSub": undefined,
+                        "sub": [Circular],
+                        "version": 0,
+                      },
+                      "depsTail": Link {
+                        "dep": Dep {
+                          "activeLink": undefined,
+                          "computed": undefined,
+                          "key": "variant",
+                          "map": Map {
+                            "variant" => [Circular],
+                          },
+                          "sc": 1,
+                          "subs": [Circular],
+                          "subsHead": [Circular],
+                          "version": 0,
+                        },
+                        "nextDep": undefined,
+                        "nextSub": undefined,
+                        "prevActiveLink": undefined,
+                        "prevDep": undefined,
+                        "prevSub": undefined,
+                        "sub": [Circular],
+                        "version": 0,
+                      },
+                      "effect": [Circular],
+                      "flags": 4,
+                      "fn": [Function],
+                      "globalVersion": 1,
+                      "isSSR": false,
+                      "next": undefined,
+                      "setter": undefined,
+                    },
+                    "key": undefined,
+                    "map": undefined,
+                    "sc": 1,
+                    "subs": [Circular],
+                    "subsHead": [Circular],
+                    "version": 1,
+                  },
+                  "nextDep": undefined,
+                  "nextSub": undefined,
+                  "prevActiveLink": undefined,
+                  "prevDep": undefined,
+                  "prevSub": undefined,
+                  "sub": [Circular],
+                  "version": 1,
+                },
+                "flags": 37,
+                "fn": [Function],
+                "next": undefined,
+                "onTrack": undefined,
+                "onTrigger": undefined,
+                "scheduler": [Function],
+              },
+            ],
+            "parent": undefined,
+          },
+          "setupContext": {
+            "attrs": {},
+            "emit": [Function],
+            "expose": [Function],
+            "slots": {},
+          },
+          "setupState": {
+            "props": {
+              "variant": "foreground",
+            },
+            "spinnerColorClasses": " bg-primary-foreground",
+            "spinnerLines": [
+              {
+                "style": {
+                  "--line-delay": "-1.20s",
+                  "--line-rotation": "0.00001deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-1.10s",
+                  "--line-rotation": "30deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-1.00s",
+                  "--line-rotation": "60deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.90s",
+                  "--line-rotation": "90deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.80s",
+                  "--line-rotation": "120deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.70s",
+                  "--line-rotation": "150deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.60s",
+                  "--line-rotation": "180deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.50s",
+                  "--line-rotation": "210deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.40s",
+                  "--line-rotation": "240deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.30s",
+                  "--line-rotation": "270deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.20s",
+                  "--line-rotation": "300deg",
+                },
+              },
+              {
+                "style": {
+                  "--line-delay": "-0.10s",
+                  "--line-rotation": "330deg",
+                },
+              },
+            ],
+          },
+          "slots": {},
+          "sp": null,
+          "subTree": {
+            "__v_isVNode": true,
+            "__v_skip": true,
+            "anchor": null,
+            "appContext": null,
+            "children": [
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": ,
+                "appContext": null,
+                "children": [
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 0.00001deg; --line-delay: -1.20s;"
+                    />,
+                    "key": 0,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 0,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-1.20s",
+                        "--line-rotation": "0.00001deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 30deg; --line-delay: -1.10s;"
+                    />,
+                    "key": 1,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 1,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-1.10s",
+                        "--line-rotation": "30deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 60deg; --line-delay: -1.00s;"
+                    />,
+                    "key": 2,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 2,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-1.00s",
+                        "--line-rotation": "60deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 90deg; --line-delay: -0.90s;"
+                    />,
+                    "key": 3,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 3,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.90s",
+                        "--line-rotation": "90deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 120deg; --line-delay: -0.80s;"
+                    />,
+                    "key": 4,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 4,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.80s",
+                        "--line-rotation": "120deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 150deg; --line-delay: -0.70s;"
+                    />,
+                    "key": 5,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 5,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.70s",
+                        "--line-rotation": "150deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 180deg; --line-delay: -0.60s;"
+                    />,
+                    "key": 6,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 6,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.60s",
+                        "--line-rotation": "180deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 210deg; --line-delay: -0.50s;"
+                    />,
+                    "key": 7,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 7,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.50s",
+                        "--line-rotation": "210deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 240deg; --line-delay: -0.40s;"
+                    />,
+                    "key": 8,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 8,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.40s",
+                        "--line-rotation": "240deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 270deg; --line-delay: -0.30s;"
+                    />,
+                    "key": 9,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 9,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.30s",
+                        "--line-rotation": "270deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 300deg; --line-delay: -0.20s;"
+                    />,
+                    "key": 10,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 10,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.20s",
+                        "--line-rotation": "300deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 330deg; --line-delay: -0.10s;"
+                    />,
+                    "key": 11,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 11,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.10s",
+                        "--line-rotation": "330deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                ],
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": [],
+                "dynamicProps": null,
+                "el": ,
+                "key": null,
+                "patchFlag": 128,
+                "props": null,
+                "ref": null,
+                "scopeId": "data-v-bc6d31ca",
+                "shapeFlag": 16,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": Symbol(v-fgt),
+              },
+            ],
+            "component": null,
+            "ctx": [Circular],
+            "dirs": null,
+            "dynamicChildren": [
+              {
+                "__v_isVNode": true,
+                "__v_skip": true,
+                "anchor": ,
+                "appContext": null,
+                "children": [
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 0.00001deg; --line-delay: -1.20s;"
+                    />,
+                    "key": 0,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 0,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-1.20s",
+                        "--line-rotation": "0.00001deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 30deg; --line-delay: -1.10s;"
+                    />,
+                    "key": 1,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 1,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-1.10s",
+                        "--line-rotation": "30deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 60deg; --line-delay: -1.00s;"
+                    />,
+                    "key": 2,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 2,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-1.00s",
+                        "--line-rotation": "60deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 90deg; --line-delay: -0.90s;"
+                    />,
+                    "key": 3,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 3,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.90s",
+                        "--line-rotation": "90deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 120deg; --line-delay: -0.80s;"
+                    />,
+                    "key": 4,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 4,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.80s",
+                        "--line-rotation": "120deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 150deg; --line-delay: -0.70s;"
+                    />,
+                    "key": 5,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 5,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.70s",
+                        "--line-rotation": "150deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 180deg; --line-delay: -0.60s;"
+                    />,
+                    "key": 6,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 6,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.60s",
+                        "--line-rotation": "180deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 210deg; --line-delay: -0.50s;"
+                    />,
+                    "key": 7,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 7,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.50s",
+                        "--line-rotation": "210deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 240deg; --line-delay: -0.40s;"
+                    />,
+                    "key": 8,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 8,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.40s",
+                        "--line-rotation": "240deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 270deg; --line-delay: -0.30s;"
+                    />,
+                    "key": 9,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 9,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.30s",
+                        "--line-rotation": "270deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 300deg; --line-delay: -0.20s;"
+                    />,
+                    "key": 10,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 10,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.20s",
+                        "--line-rotation": "300deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                  {
+                    "__v_isVNode": true,
+                    "__v_skip": true,
+                    "anchor": null,
+                    "appContext": null,
+                    "children": null,
+                    "component": null,
+                    "ctx": [Circular],
+                    "dirs": null,
+                    "dynamicChildren": [],
+                    "dynamicProps": null,
+                    "el": <span
+                      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                      data-v-bc6d31ca=""
+                      style="--line-rotation: 330deg; --line-delay: -0.10s;"
+                    />,
+                    "key": 11,
+                    "patchFlag": 16,
+                    "props": {
+                      "class": "spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground",
+                      "key": 11,
+                      "ref_for": true,
+                      "style": {
+                        "--line-delay": "-0.10s",
+                        "--line-rotation": "330deg",
+                      },
+                    },
+                    "ref": null,
+                    "scopeId": "data-v-bc6d31ca",
+                    "shapeFlag": 1,
+                    "slotScopeIds": null,
+                    "ssContent": null,
+                    "ssFallback": null,
+                    "staticCount": 0,
+                    "suspense": null,
+                    "target": null,
+                    "targetAnchor": null,
+                    "targetStart": null,
+                    "transition": null,
+                    "type": "span",
+                  },
+                ],
+                "component": null,
+                "ctx": [Circular],
+                "dirs": null,
+                "dynamicChildren": [],
+                "dynamicProps": null,
+                "el": ,
+                "key": null,
+                "patchFlag": 128,
+                "props": null,
+                "ref": null,
+                "scopeId": "data-v-bc6d31ca",
+                "shapeFlag": 16,
+                "slotScopeIds": null,
+                "ssContent": null,
+                "ssFallback": null,
+                "staticCount": 0,
+                "suspense": null,
+                "target": null,
+                "targetAnchor": null,
+                "targetStart": null,
+                "transition": null,
+                "type": Symbol(v-fgt),
+              },
+            ],
+            "dynamicProps": null,
+            "el": <span
+              aria-label="Loading"
+              class="relative flex size-5 items-center justify-center"
+              data-v-bc6d31ca=""
+            >
+              
+              <span
+                class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                data-v-bc6d31ca=""
+                style="--line-rotation: 0.00001deg; --line-delay: -1.20s;"
+              />
+              <span
+                class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                data-v-bc6d31ca=""
+                style="--line-rotation: 30deg; --line-delay: -1.10s;"
+              />
+              <span
+                class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                data-v-bc6d31ca=""
+                style="--line-rotation: 60deg; --line-delay: -1.00s;"
+              />
+              <span
+                class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                data-v-bc6d31ca=""
+                style="--line-rotation: 90deg; --line-delay: -0.90s;"
+              />
+              <span
+                class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                data-v-bc6d31ca=""
+                style="--line-rotation: 120deg; --line-delay: -0.80s;"
+              />
+              <span
+                class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                data-v-bc6d31ca=""
+                style="--line-rotation: 150deg; --line-delay: -0.70s;"
+              />
+              <span
+                class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                data-v-bc6d31ca=""
+                style="--line-rotation: 180deg; --line-delay: -0.60s;"
+              />
+              <span
+                class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                data-v-bc6d31ca=""
+                style="--line-rotation: 210deg; --line-delay: -0.50s;"
+              />
+              <span
+                class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                data-v-bc6d31ca=""
+                style="--line-rotation: 240deg; --line-delay: -0.40s;"
+              />
+              <span
+                class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                data-v-bc6d31ca=""
+                style="--line-rotation: 270deg; --line-delay: -0.30s;"
+              />
+              <span
+                class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                data-v-bc6d31ca=""
+                style="--line-rotation: 300deg; --line-delay: -0.20s;"
+              />
+              <span
+                class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+                data-v-bc6d31ca=""
+                style="--line-rotation: 330deg; --line-delay: -0.10s;"
+              />
+              
+            </span>,
+            "key": null,
+            "patchFlag": 0,
+            "props": {
+              "aria-label": "Loading",
+              "class": "relative flex size-5 items-center justify-center",
+            },
+            "ref": null,
+            "scopeId": "data-v-bc6d31ca",
+            "shapeFlag": 17,
+            "slotScopeIds": null,
+            "ssContent": null,
+            "ssFallback": null,
+            "staticCount": 0,
+            "suspense": null,
+            "target": null,
+            "targetAnchor": null,
+            "targetStart": null,
+            "transition": null,
+            "type": "span",
+          },
+          "suspense": null,
+          "suspenseId": 0,
+          "type": {
+            "__file": "/Users/kacperborowiec/Documents/GitHub/ui/packages/ui/src/components/Spinner/Spinner.vue",
+            "__name": "Spinner",
+            "__scopeId": "data-v-bc6d31ca",
+            "components": {},
+            "props": {
+              "variant": {
+                "default": "foreground",
+                "required": true,
+                "type": [Function],
+              },
+            },
+            "render": [Function],
+            "setup": [Function],
+          },
+          "u": null,
+          "uid": 1,
+          "um": null,
+          "update": [Function],
+          "vnode": [Circular],
+          "withProxy": null,
+        },
+        "ctx": [Circular],
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <span
+          aria-label="Loading"
+          class="relative flex size-5 items-center justify-center"
+          data-v-bc6d31ca=""
+        >
+          
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 0.00001deg; --line-delay: -1.20s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 30deg; --line-delay: -1.10s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 60deg; --line-delay: -1.00s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 90deg; --line-delay: -0.90s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 120deg; --line-delay: -0.80s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 150deg; --line-delay: -0.70s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 180deg; --line-delay: -0.60s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 210deg; --line-delay: -0.50s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 240deg; --line-delay: -0.40s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 270deg; --line-delay: -0.30s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 300deg; --line-delay: -0.20s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 330deg; --line-delay: -0.10s;"
+          />
+          
+        </span>,
+        "key": null,
+        "patchFlag": 0,
+        "props": {
+          "ref": "VTU_COMPONENT",
+        },
+        "ref": {
+          "f": false,
+          "i": [Circular],
+          "k": undefined,
+          "r": "VTU_COMPONENT",
+        },
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "targetStart": null,
+        "transition": null,
+        "type": {
+          "__file": "/Users/kacperborowiec/Documents/GitHub/ui/packages/ui/src/components/Spinner/Spinner.vue",
+          "__name": "Spinner",
+          "__scopeId": "data-v-bc6d31ca",
+          "components": {},
+          "props": {
+            "variant": {
+              "default": "foreground",
+              "required": true,
+              "type": [Function],
+            },
+          },
+          "render": [Function],
+          "setup": [Function],
+        },
+      },
+      "suspense": null,
+      "suspenseId": 0,
+      "type": {
+        "name": "VTU_ROOT",
+        "render": [Function],
+        "setup": [Function],
+      },
+      "u": null,
+      "uid": 0,
+      "um": null,
+      "update": [Function],
+      "vnode": {
+        "__v_isVNode": true,
+        "__v_skip": true,
+        "anchor": null,
+        "appContext": {
+          "app": [Circular],
+          "components": {
+            "transition": {
+              "name": "transition",
+            },
+            "transition-group": {
+              "name": "transition-group",
+            },
+          },
+          "config": {
+            "compilerOptions": {},
+            "errorHandler": undefined,
+            "globalProperties": {},
+            "isNativeTag": [Function],
+            "optionMergeStrategies": {},
+            "performance": false,
+            "warnHandler": undefined,
+          },
+          "directives": {},
+          "emitsCache": WeakMap {},
+          "mixins": [
+            {
+              "beforeCreate": [Function],
+            },
+          ],
+          "optionsCache": WeakMap {},
+          "propsCache": WeakMap {},
+          "provides": {},
+          "reload": [Function],
+        },
+        "children": null,
+        "component": [Circular],
+        "ctx": null,
+        "dirs": null,
+        "dynamicChildren": null,
+        "dynamicProps": null,
+        "el": <span
+          aria-label="Loading"
+          class="relative flex size-5 items-center justify-center"
+          data-v-bc6d31ca=""
+        >
+          
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 0.00001deg; --line-delay: -1.20s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 30deg; --line-delay: -1.10s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 60deg; --line-delay: -1.00s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 90deg; --line-delay: -0.90s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 120deg; --line-delay: -0.80s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 150deg; --line-delay: -0.70s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 180deg; --line-delay: -0.60s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 210deg; --line-delay: -0.50s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 240deg; --line-delay: -0.40s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 270deg; --line-delay: -0.30s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 300deg; --line-delay: -0.20s;"
+          />
+          <span
+            class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+            data-v-bc6d31ca=""
+            style="--line-rotation: 330deg; --line-delay: -0.10s;"
+          />
+          
+        </span>,
+        "key": null,
+        "patchFlag": 0,
+        "props": null,
+        "ref": null,
+        "scopeId": null,
+        "shapeFlag": 4,
+        "slotScopeIds": null,
+        "ssContent": null,
+        "ssFallback": null,
+        "staticCount": 0,
+        "suspense": null,
+        "target": null,
+        "targetAnchor": null,
+        "targetStart": null,
+        "transition": null,
+        "type": {
+          "name": "VTU_ROOT",
+          "render": [Function],
+          "setup": [Function],
+        },
+      },
+      "withProxy": null,
+    },
+    "_props": null,
+    "_uid": 0,
+    "component": [Function],
+    "config": {
+      "compilerOptions": {},
+      "errorHandler": undefined,
+      "globalProperties": {},
+      "isNativeTag": [Function],
+      "optionMergeStrategies": {},
+      "performance": false,
+      "warnHandler": undefined,
+    },
+    "directive": [Function],
+    "mixin": [Function],
+    "mount": [Function],
+    "onUnmount": [Function],
+    "provide": [Function],
+    "runWithContext": [Function],
+    "unmount": [Function],
+    "use": [Function],
+    "version": "3.5.13",
+  },
+  "__setProps": [Function],
+  "cleanUpCallbacks": [
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+    [Function],
+  ],
+  "componentVM": {},
+  "isDisabled": [Function],
+  "rootVM": {
+    "VTU_COMPONENT": {},
+  },
+  "wrapperElement": <span
+    aria-label="Loading"
+    class="relative flex size-5 items-center justify-center"
+    data-v-bc6d31ca=""
+  >
+    
+    <span
+      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+      data-v-bc6d31ca=""
+      style="--line-rotation: 0.00001deg; --line-delay: -1.20s;"
+    />
+    <span
+      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+      data-v-bc6d31ca=""
+      style="--line-rotation: 30deg; --line-delay: -1.10s;"
+    />
+    <span
+      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+      data-v-bc6d31ca=""
+      style="--line-rotation: 60deg; --line-delay: -1.00s;"
+    />
+    <span
+      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+      data-v-bc6d31ca=""
+      style="--line-rotation: 90deg; --line-delay: -0.90s;"
+    />
+    <span
+      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+      data-v-bc6d31ca=""
+      style="--line-rotation: 120deg; --line-delay: -0.80s;"
+    />
+    <span
+      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+      data-v-bc6d31ca=""
+      style="--line-rotation: 150deg; --line-delay: -0.70s;"
+    />
+    <span
+      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+      data-v-bc6d31ca=""
+      style="--line-rotation: 180deg; --line-delay: -0.60s;"
+    />
+    <span
+      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+      data-v-bc6d31ca=""
+      style="--line-rotation: 210deg; --line-delay: -0.50s;"
+    />
+    <span
+      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+      data-v-bc6d31ca=""
+      style="--line-rotation: 240deg; --line-delay: -0.40s;"
+    />
+    <span
+      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+      data-v-bc6d31ca=""
+      style="--line-rotation: 270deg; --line-delay: -0.30s;"
+    />
+    <span
+      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+      data-v-bc6d31ca=""
+      style="--line-rotation: 300deg; --line-delay: -0.20s;"
+    />
+    <span
+      class="spinner-line transform-[rotate(var(--line-rotation))_translate(150%)] absolute block h-[12%] w-1/4 rounded-[1px] bg-primary-foreground"
+      data-v-bc6d31ca=""
+      style="--line-rotation: 330deg; --line-delay: -0.10s;"
+    />
+    
+  </span>,
+}
+`;

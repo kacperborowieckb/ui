@@ -6,6 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
+    "hist": "pnpm -C ./.histoire run dev",
     "build": "pnpm --filter './packages/**' prepack",
     "ui:build": "pnpm -C ./packages/ui run build",
     "ui:build:watch": "pnpm -C ./packages/ui run build:watch",
