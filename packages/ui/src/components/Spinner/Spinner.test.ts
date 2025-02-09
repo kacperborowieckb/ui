@@ -6,6 +6,6 @@ describe('spinner', () => {
   it('should render correctly', () => {
     const wrapper = shallowMount(Spinner)
 
-    expect(wrapper).toMatchSnapshot()
+    expect(wrapper.html()).toMatchSnapshot()
   })
 })
