@@ -1,7 +1,7 @@
 <template>
   <button ref="buttonTemplateRef" :class="button({ variant })">
     <component :is="buttonContentWrapper" v-bind="buttonContentWrapperProps">
-      <span :key="$slots.default?.({})" class="inline-flex h-full items-center gap-2">
+      <span :key="$slots.default?.({})" class="flex items-center justify-center gap-2">
         <slot />
       </span>
     </component>
@@ -14,7 +14,7 @@ import { onMounted, Transition, useTemplateRef } from 'vue'
 import type { VariantProps } from 'tailwind-variants'
 
 const button = tv({
-  base: 'focus-visible:ring-offset-background focus-visible:ring-ring w-(--button-width) h-(--button-height) relative inline-flex cursor-pointer justify-center overflow-hidden rounded-md px-3 py-1 ring-offset-1 transition-colors duration-200 ease-out focus-visible:outline-none focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-75',
+  base: 'focus-visible:ring-offset-background focus-visible:ring-ring w-(--button-width) h-(--button-height) relative inline-flex cursor-pointer items-center justify-center overflow-hidden rounded-md px-3 py-1 ring-offset-1 transition-colors duration-200 ease-out focus-visible:outline-none focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-75',
   variants: {
     variant: {
       solid: 'bg-primary text-primary-foreground hover:bg-primary/90 active:bg-primary/85 active:text-primary-foreground/95',
@@ -39,7 +39,7 @@ const props = withDefaults(defineProps<ButtonProps>(), {
 
 const buttonRef = useTemplateRef('buttonTemplateRef')
 
-const buttonContentWrapper = props.animated ? Transition : 'v-template'
+const buttonContentWrapper = props.animated ? Transition : 'span'
 
 const buttonContentWrapperProps = props.animated ? { name: 'shift' } : {}
 

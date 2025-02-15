@@ -1,21 +1,3 @@
-<script lang="ts" setup>
-import { AngleIcon } from '@radix-icons/vue'
-import { logEvent } from 'histoire/client'
-import { ref } from 'vue'
-
-import Button from './Button.vue'
-
-const isLoading = ref(false)
-
-function startButtonAnimation() {
-  isLoading.value = true
-
-  setTimeout(() => {
-    isLoading.value = false
-  }, 2000)
-}
-</script>
-
 <template>
   <Story>
     <Variant title="Solid">
@@ -51,7 +33,7 @@ function startButtonAnimation() {
     <Variant title="Animated">
       <Button animated variant="gradient" @click="startButtonAnimation">
         <template v-if="isLoading">
-          <AngleIcon />
+          <Spinner />
         </template>
         <template v-else>
           Submit
@@ -60,3 +42,21 @@ function startButtonAnimation() {
     </Variant>
   </Story>
 </template>
+
+<script lang="ts" setup>
+import { logEvent } from 'histoire/client'
+import { ref } from 'vue'
+
+import Spinner from '../Spinner/Spinner.vue'
+import Button from './Button.vue'
+
+const isLoading = ref(false)
+
+function startButtonAnimation() {
+  isLoading.value = true
+
+  setTimeout(() => {
+    isLoading.value = false
+  }, 2000)
+}
+</script>
