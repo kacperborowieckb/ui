@@ -42,5 +42,10 @@ export default antfu({
   typescript: true,
   rules: {
     'tailwindcss/no-custom-classname': 'off',
+    "vue/max-attributes-per-line": ['error', {
+      singleline: {
+        max: 3
+      },
+    }]
   },
 }).prepend(eslintTailwind.configs['flat/recommended'])

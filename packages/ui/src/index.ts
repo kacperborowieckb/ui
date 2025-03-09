@@ -1,2 +1,7 @@
 export * from '@/components/Button'
+export * from '@/components/Chip'
+export * from '@/components/InputBase'
+export * from '@/components/InputChips'
+export * from '@/components/InputText'
+export * from '@/components/InputWrapper'
 export * from '@/components/Spinner'
