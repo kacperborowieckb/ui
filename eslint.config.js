@@ -37,15 +37,36 @@ export default antfu({
       'vue/block-order': ['error', {
         order: [['script', 'template'], 'style'],
       }],
+      'vue/prop-name-casing': ['error', 'camelCase'],
+      'vue/attribute-hyphenation': ['error', 'never'],
+      'vue/v-on-event-hyphenation': ['error', 'never'],
+      'vue/attributes-order': ['error', {
+        order: [
+          'DEFINITION',
+          'LIST_RENDERING',
+          'CONDITIONALS',
+          'RENDER_MODIFIERS',
+          'GLOBAL',
+          ['UNIQUE', 'SLOT'],
+          'TWO_WAY_BINDING',
+          'OTHER_DIRECTIVES',
+          'ATTR_SHORTHAND_BOOL',
+          'ATTR_STATIC',
+          'ATTR_DYNAMIC',
+          'EVENTS',
+          'CONTENT',
+        ],
+        alphabetical: false,
+      }],
     },
   },
   typescript: true,
   rules: {
     'tailwindcss/no-custom-classname': 'off',
-    "vue/max-attributes-per-line": ['error', {
+    'vue/max-attributes-per-line': ['error', {
       singleline: {
-        max: 3
+        max: 2,
       },
-    }]
+    }],
   },
 }).prepend(eslintTailwind.configs['flat/recommended'])

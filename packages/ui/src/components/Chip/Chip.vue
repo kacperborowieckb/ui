@@ -1,11 +1,17 @@
 <template>
   <div
+    :tabindex="focusable ? 0 : undefined"
     :class="chipVariants({ variant })"
+    @keydown.backspace="handleChipRemoval"
   >
     <span class="py-[3px] leading-none">
       {{ content }}
     </span>
-    <button class="cursor-pointer" @click="handleChipRemoval">
+    <button
+      tabindex="-1"
+      class="cursor-pointer"
+      @click="handleChipRemoval"
+    >
       <Cross2Icon />
     </button>
   </div>
@@ -17,11 +23,11 @@ import { tv } from 'tailwind-variants'
 import type { VariantProps } from 'tailwind-variants'
 
 const chipVariants = tv({
-  base: 'flex items-center gap-1 rounded-sm border px-2 transition-colors',
+  base: 'focus-visible:ring-offset-background focus-visible:ring-ring flex items-center gap-1 rounded-sm border px-2 transition-colors focus-visible:outline-none focus-visible:ring-2 ',
   variants: {
     variant: {
-      default: 'bg-muted text-secondary-foreground hover:bg-input/75 border-input',
-      error: 'bg-destructive/10 border-destructive/30 text-destructive hover:bg-destructive/20',
+      default: 'bg-muted dark:bg-muted/80 dark:hover:bg-input text-secondary-foreground hover:bg-input/75 border-input',
+      error: 'bg-destructive/10 border-destructive/20 text-destructive hover:bg-destructive/20 dark:brightness-150',
     },
   },
 })
@@ -31,6 +37,7 @@ type ChipVariants = VariantProps<typeof chipVariants>
 export interface ChipProps {
   content: string
   variant?: ChipVariants['variant']
+  focusable?: boolean
 }
 
 export interface ChipEmits {

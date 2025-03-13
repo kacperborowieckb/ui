@@ -1,7 +1,8 @@
 <template>
   <span class="relative flex size-5 items-center justify-center" aria-label="Loading">
     <span
-      v-for="(spinnerLine, index) in spinnerLines" :key="index"
+      v-for="(spinnerLine, index) in spinnerLines"
+      :key="index"
       class="spinner-line transform-[rotate(var(--line-rotation))_translate(125%)] absolute block h-[12%] w-1/3 rounded-[1px]"
       :class="spinnerColorClasses"
       v-bind="spinnerLine"

@@ -1,18 +1,29 @@
 <template>
-  <InputWrapper :label="label">
+  <InputWrapper
+    :label="label"
+    :disabled="disabled"
+    :hasError="hasErrors"
+    :errorMessage="errorMessage"
+  >
     <Chip
       v-for="(chip, index) in chips"
-      :key="index"
+      :key="`${index}-${chip}`"
+      focusable
       :content="chip"
       :variant="chipsWithErrors.has(chip) ? 'error' : 'default'"
-      @chip-removal="handleChipRemoval(index)"
+      @chipRemoval="handleChipRemoval(chip, index)"
     />
-    <InputBase v-model.trim="inputValue" :placeholder="placeholder" @keydown="handleKeyDown" />
+    <InputBase
+      v-model.trim="inputValue"
+      :placeholder="placeholder"
+      :disabled="disabled"
+      @keydown="handleKeyDown"
+    />
   </InputWrapper>
 </template>
 
 <script lang="ts">
-import { ref } from 'vue'
+import { computed, ref, watch } from 'vue'
 
 import { Chip } from '../Chip'
 import { InputBase } from '../InputBase'
@@ -21,18 +32,33 @@ import { InputWrapper } from '../InputWrapper'
 export interface InputChipsProps {
   placeholder?: string
   label?: string
+  disabled?: boolean
   chipSeparators: string[]
   validator?: RegExp | ((chipValue: string) => boolean)
+  hasError?: boolean
+  errorMessage?: string
+}
+
+export interface InputChipsEmits {
+  (e: 'chipsUpdated', chips: string[]): void
+  (e: 'errorStateChanged', hasError: boolean): void
 }
 </script>
 
 <script setup lang="ts">
 const props = defineProps<InputChipsProps>()
+const emit = defineEmits<InputChipsEmits>()
 
 const chips = defineModel<string[]>({ default: [] })
 
 const inputValue = ref<string>('')
-const chipsWithErrors = ref<Set<string>>(new Set())
+const chipsWithErrors = ref<Map<string, number>>(new Map())
+
+const hasErrors = computed(() => props.hasError || chipsWithErrors.value.size > 0)
+
+watch(hasErrors, () => {
+  emit('errorStateChanged', hasErrors.value)
+})
 
 function validateChip(): boolean {
   if (!props.validator)
@@ -45,26 +71,56 @@ function validateChip(): boolean {
   return props.validator(inputValue.value)
 }
 
-function handleCreateChip() {
-  const isValid = validateChip()
-
-  if (!isValid) {
-    chipsWithErrors.value.add(inputValue.value)
-  }
-
-  chips.value = [...chips.value, inputValue.value]
-  inputValue.value = ''
-}
-
-function handleChipRemoval(chipIndex: number) {
-  chips.value = chips.value.toSpliced(chipIndex, 1)
-}
-
 function handleKeyDown(e: KeyboardEvent) {
   const shouldCreateNewChip = props.chipSeparators.includes(e.key) && !!inputValue.value
 
   if (shouldCreateNewChip) {
     handleCreateChip()
   }
+}
+
+function handleCreateChip() {
+  const isValid = validateChip()
+
+  if (!isValid) {
+    createErrorChip()
+  }
+
+  chips.value = [...chips.value, inputValue.value]
+  inputValue.value = ''
+
+  emit('chipsUpdated', chips.value)
+}
+
+function handleChipRemoval(chip: string, chipIndex: number) {
+  chips.value = chips.value.toSpliced(chipIndex, 1)
+
+  if (chipsWithErrors.value.has(chip)) {
+    removeErrorChip(chip)
+  }
+
+  emit('chipsUpdated', chips.value)
+}
+
+function createErrorChip() {
+  const chipValue = inputValue.value
+  const currentChipCount = chipsWithErrors.value.get(chipValue) ?? 0
+
+  chipsWithErrors.value.set(chipValue, currentChipCount + 1)
+}
+
+function removeErrorChip(chip: string) {
+  const currentChipCount = chipsWithErrors.value.get(chip)
+
+  if (!currentChipCount)
+    return
+
+  if (currentChipCount === 1) {
+    chipsWithErrors.value.delete(chip)
+
+    return
+  }
+
+  chipsWithErrors.value.set(chip, currentChipCount - 1)
 }
 </script>
