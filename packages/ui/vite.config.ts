@@ -22,7 +22,6 @@ export default defineConfig({
       formats: ['es'],
       name: 'kacperborowiec/ui',
       fileName: (_, name) => `${name}.mjs`,
-      cssFileName: 'base',
       entry: {
         index: resolve(__dirname, 'src/index.ts'),
         resolver: resolve(__dirname, 'src/resolver.ts'),
@@ -30,7 +29,7 @@ export default defineConfig({
       },
     },
     rollupOptions: {
-      external: ['vue', '@nuxt/kit', '@tailwindcss/vite'],
+      external: ['vue', 'tailwind-variant', '@nuxt/kit', '@tailwindcss/vite'],
     },
   },
   test: {

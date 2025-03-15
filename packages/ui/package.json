@@ -15,10 +15,11 @@
       "types": "./dist/nuxt.d.ts",
       "import": "./dist/nuxt.mjs"
     },
-    "./base.css": "./dist/base.css"
+    "./base.css": "./dist/style.css"
   },
   "main": "./dist/index.mjs",
   "types": "dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
     "build": "vite build",
     "build:watch": "vite build --watch",
