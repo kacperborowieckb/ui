@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`inputText > should render correctly 1`] = `
+"<input-wrapper-stub label="mockLabel" disabled="false" haserror="false">
+  <input-base-stub modelvalue="" placeholder="mockPlaceholder" disabled="false"></input-base-stub>
+</input-wrapper-stub>"
+`;
+
+exports[`inputText > should render correctly in disabled state 1`] = `
+"<input-wrapper-stub label="mockLabel" disabled="true" haserror="false">
+  <input-base-stub modelvalue="" placeholder="mockPlaceholder" disabled="true"></input-base-stub>
+</input-wrapper-stub>"
+`;
+
+exports[`inputText > should render correctly in error state 1`] = `
+"<input-wrapper-stub label="mockLabel" disabled="false" haserror="true" errormessage="mockErrorMessage">
+  <input-base-stub modelvalue="" placeholder="mockPlaceholder" disabled="false"></input-base-stub>
+</input-wrapper-stub>"
+`;

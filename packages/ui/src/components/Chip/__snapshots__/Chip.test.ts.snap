@@ -1,0 +1,19 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`chip > should render correctly with button 1`] = `
+"<div class="focus-visible:ring-offset-background focus-visible:ring-ring flex items-center gap-1 rounded-sm border px-2 transition-colors focus-visible:outline-none focus-visible:ring-2 bg-muted dark:bg-muted/80 dark:hover:bg-input text-secondary-foreground hover:bg-input/75 border-input"><span class="flex gap-2 py-[3px] leading-none"><!--v-if--></span><button tabindex="-1" class="cursor-pointer">
+    <render-stub></render-stub>
+  </button></div>"
+`;
+
+exports[`chip > should render correctly with error state 1`] = `
+"<div class="focus-visible:ring-offset-background focus-visible:ring-ring flex items-center gap-1 rounded-sm border px-2 transition-colors focus-visible:outline-none focus-visible:ring-2 bg-destructive/10 border-destructive/20 text-destructive hover:bg-destructive/20 dark:brightness-150"><span class="flex gap-2 py-[3px] leading-none">mockContent</span><button tabindex="-1" class="cursor-pointer">
+    <render-stub></render-stub>
+  </button></div>"
+`;
+
+exports[`chip > should render correctly without button 1`] = `
+"<div class="focus-visible:ring-offset-background focus-visible:ring-ring flex items-center gap-1 rounded-sm border px-2 transition-colors focus-visible:outline-none focus-visible:ring-2 bg-muted dark:bg-muted/80 dark:hover:bg-input text-secondary-foreground hover:bg-input/75 border-input"><span class="flex gap-2 py-[3px] leading-none">mockContent</span>
+  <!--v-if-->
+</div>"
+`;

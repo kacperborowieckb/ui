@@ -1,0 +1,17 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`inputChips > should render correctly 1`] = `
+"<div data-testid="input-wrapper" disabled="false" haserror="false">
+  <chip-stub content="chip1" variant="default" focusable="true" disabled="false" withbutton="true"></chip-stub>
+  <chip-stub content="chip2" variant="default" focusable="true" disabled="false" withbutton="true"></chip-stub>
+  <input-base-stub modelvalue="" modelmodifiers="[object Object]" disabled="false"></input-base-stub>
+</div>"
+`;
+
+exports[`inputChips > should render correctly with error chips 1`] = `
+"<div data-testid="input-wrapper" disabled="false" haserror="true">
+  <chip-stub content="mo" variant="default" focusable="true" disabled="false" withbutton="true"></chip-stub>
+  <chip-stub content="mockChip2" variant="error" focusable="true" disabled="false" withbutton="true"></chip-stub>
+  <input-base-stub modelvalue="" modelmodifiers="[object Object]" disabled="false"></input-base-stub>
+</div>"
+`;

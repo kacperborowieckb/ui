@@ -53,8 +53,5 @@
   },
   "tailwindCSS.experimental.configFile": {
     "packages/ui/src/theme.css": "packages/ui/src/**"
-  },
-  "tailwindCSS.experimental.classRegex": [
-    ["([\"'`][^\"'`]*.*?[\"'`])", "[\"'`]([^\"'`]*).*?[\"'`]"]
-  ]
+  }
 }

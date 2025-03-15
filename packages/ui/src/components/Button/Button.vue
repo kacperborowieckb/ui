@@ -1,7 +1,7 @@
 <template>
-  <button ref="buttonTemplateRef" :class="button({ variant })">
+  <button ref="buttonTemplateRef" :class="buttonVariants({ variant })">
     <component :is="buttonContentWrapper" v-bind="buttonContentWrapperProps">
-      <span :key="$slots.default?.({})" class="flex items-center justify-center gap-2">
+      <span :key="Math.random()" class="flex items-center justify-center gap-2">
         <slot />
       </span>
     </component>
@@ -13,8 +13,8 @@ import { tv } from 'tailwind-variants'
 import { onMounted, Transition, useTemplateRef } from 'vue'
 import type { VariantProps } from 'tailwind-variants'
 
-const button = tv({
-  base: 'focus-visible:ring-offset-background focus-visible:ring-ring w-(--button-width) h-(--button-height) relative inline-flex cursor-pointer items-center justify-center overflow-hidden rounded-md px-3 py-1 ring-offset-1 transition-colors duration-200 ease-out focus-visible:outline-none focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-75',
+const buttonVariants = tv({
+  base: 'focus-visible:ring-offset-background focus-visible:ring-ring min-w-(--button-width) min-h-(--button-height) relative inline-flex max-w-fit cursor-pointer items-center justify-center overflow-hidden rounded-md px-4 py-1 ring-offset-1 transition-colors duration-200 ease-out focus-visible:outline-none focus-visible:ring-2 disabled:pointer-events-none disabled:opacity-75',
   variants: {
     variant: {
       solid: 'bg-primary text-primary-foreground hover:bg-primary/90 active:bg-primary/85 active:text-primary-foreground/95',
@@ -24,7 +24,7 @@ const button = tv({
   },
 })
 
-type ButtonVariantProps = VariantProps<typeof button>
+type ButtonVariantProps = VariantProps<typeof buttonVariants>
 
 export interface ButtonProps {
   variant?: ButtonVariantProps['variant']
