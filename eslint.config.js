@@ -1,5 +1,4 @@
 import antfu from '@antfu/eslint-config'
-import eslintTailwind from 'eslint-plugin-tailwindcss'
 
 export default antfu({
   stylistic: {
@@ -62,11 +61,10 @@ export default antfu({
   },
   typescript: true,
   rules: {
-    'tailwindcss/no-custom-classname': 'off',
     'vue/max-attributes-per-line': ['error', {
       singleline: {
         max: 2,
       },
     }],
   },
-}).prepend(eslintTailwind.configs['flat/recommended'])
+})
