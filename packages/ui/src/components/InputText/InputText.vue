@@ -6,7 +6,7 @@
     :errorMessage="errorMessage"
   >
     <InputBase
-      v-model="model"
+      v-model="inputValue"
       :placeholder="placeholder"
       :disabled="disabled"
     />
@@ -32,10 +32,11 @@ export interface InputTextProps {
 <script setup lang="ts">
 const props = defineProps<InputTextProps>()
 
-const model = defineModel<string>({ default: '' })
+const inputValue = defineModel<string>({ default: '' })
+const error = defineModel<boolean>('error', { default: false })
 
 const isInvalid = computed(() => {
-  return props.hasError || !validateInputValue(model.value)
+  return props.hasError || !validateInputValue(inputValue.value)
 })
 
 function validateInputValue(value: string) {
@@ -43,9 +44,13 @@ function validateInputValue(value: string) {
     return true
 
   if (props.validator instanceof RegExp) {
-    return props.validator.test(value)
+    error.value = !props.validator.test(value)
   }
 
-  return props.validator(value)
+  if (props.validator instanceof Function) {
+    error.value = !props.validator(value)
+  }
+
+  return !error.value
 }
 </script>

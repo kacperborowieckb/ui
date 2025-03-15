@@ -5,7 +5,11 @@
         <Button variant="solid" @click="logEvent('Click', $event)">
           Submit
         </Button>
-        <Button variant="solid" disabled @click="logEvent('Click', $event)">
+        <Button
+          disabled
+          variant="solid"
+          @click="logEvent('Click', $event)"
+        >
           Submit
         </Button>
       </div>
@@ -15,7 +19,11 @@
         <Button variant="outline" @click="logEvent('Click', $event)">
           Submit
         </Button>
-        <Button variant="outline" disabled @click="logEvent('Click', $event)">
+        <Button
+          disabled
+          variant="outline"
+          @click="logEvent('Click', $event)"
+        >
           Submit
         </Button>
       </div>
@@ -25,13 +33,21 @@
         <Button variant="gradient" @click="logEvent('Click', $event)">
           Submit
         </Button>
-        <Button variant="gradient" disabled @click="logEvent('Click', $event)">
+        <Button
+          disabled
+          variant="gradient"
+          @click="logEvent('Click', $event)"
+        >
           Submit
         </Button>
       </div>
     </Variant>
     <Variant title="Animated">
-      <Button animated variant="gradient" @click="startButtonAnimation">
+      <Button
+        animated
+        variant="gradient"
+        @click="startButtonAnimation"
+      >
         <template v-if="isLoading">
           <Spinner />
         </template>

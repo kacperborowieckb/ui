@@ -1,13 +1,17 @@
 <template>
   <div
-    :tabindex="focusable ? 0 : undefined"
+    :tabindex="isFocusable ? 0 : undefined"
     :class="chipVariants({ variant })"
     @keydown.backspace="handleChipRemoval"
   >
-    <span class="py-[3px] leading-none">
-      {{ content }}
+    <span class="flex gap-2 py-[3px] leading-none">
+      <template v-if="content">
+        {{ content }}
+      </template>
+      <slot />
     </span>
     <button
+      v-if="withButton"
       tabindex="-1"
       class="cursor-pointer"
       @click="handleChipRemoval"
@@ -20,6 +24,7 @@
 <script lang="ts">
 import { Cross2Icon } from '@radix-icons/vue'
 import { tv } from 'tailwind-variants'
+import { computed } from 'vue'
 import type { VariantProps } from 'tailwind-variants'
 
 const chipVariants = tv({
@@ -35,9 +40,11 @@ const chipVariants = tv({
 type ChipVariants = VariantProps<typeof chipVariants>
 
 export interface ChipProps {
-  content: string
+  content?: string
   variant?: ChipVariants['variant']
   focusable?: boolean
+  disabled?: boolean
+  withButton?: boolean
 }
 
 export interface ChipEmits {
@@ -46,11 +53,13 @@ export interface ChipEmits {
 </script>
 
 <script setup lang="ts">
-withDefaults(defineProps<ChipProps>(), {
+const props = withDefaults(defineProps<ChipProps>(), {
   variant: 'default',
 })
 
 const emit = defineEmits<ChipEmits>()
+
+const isFocusable = computed(() => props.focusable && !props.disabled)
 
 function handleChipRemoval() {
   emit('chipRemoval')

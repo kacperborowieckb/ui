@@ -4,8 +4,8 @@
   </button>
   <main class="flex flex-col gap-4 p-8">
     <Button animated>
-      <template v-if="isLoading">
-        <Spinner />
+      <template v-if="error">
+        Error
       </template>
       <template v-else>
         Submit
@@ -18,10 +18,11 @@
       placeholder="SPO Number"
       class="max-w-[250px]"
       errorMessage="some"
-      :validator="(s) => s.length < 4"
+      :validator="/^\d*$/"
     />
     <InputChips
       v-model="inputChips"
+      v-model:error="error"
       placeholder="SPO Number"
       class="max-w-[250px]"
       errorMessage="Some chips have invalid value"
@@ -43,8 +44,9 @@ import { InputText } from '../../../packages/ui/src/components/InputText'
 import { Spinner } from '../../../packages/ui/src/components/Spinner'
 
 const isLoading = ref('')
+const error = ref<boolean>(false)
 
-const inputChips = ref<string[]>([])
+const inputChips = ref<string[]>(['ds', '2', 'some other'])
 
 // watch(isLoading, () => {
 //   console.info(isLoading.value)

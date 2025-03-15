@@ -1,1 +1,1 @@
-export { default as InputChips } from './InputChips.vue'
+export { default as InputChips, type InputChipsEmits, type InputChipsProps } from './InputChips.vue'

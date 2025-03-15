@@ -9,6 +9,8 @@
       v-for="(chip, index) in chips"
       :key="`${index}-${chip}`"
       focusable
+      withButton
+      :disabled="disabled"
       :content="chip"
       :variant="chipsWithErrors.has(chip) ? 'error' : 'default'"
       @chipRemoval="handleChipRemoval(chip, index)"
@@ -23,7 +25,7 @@
 </template>
 
 <script lang="ts">
-import { computed, ref, watch } from 'vue'
+import { computed, onMounted, ref, watch } from 'vue'
 
 import { Chip } from '../Chip'
 import { InputBase } from '../InputBase'
@@ -50,6 +52,7 @@ const props = defineProps<InputChipsProps>()
 const emit = defineEmits<InputChipsEmits>()
 
 const chips = defineModel<string[]>({ default: [] })
+const error = defineModel<boolean>('error', { default: false })
 
 const inputValue = ref<string>('')
 const chipsWithErrors = ref<Map<string, number>>(new Map())
@@ -58,36 +61,48 @@ const hasErrors = computed(() => props.hasError || chipsWithErrors.value.size > 
 
 watch(hasErrors, () => {
   emit('errorStateChanged', hasErrors.value)
+  error.value = hasErrors.value
 })
 
-function validateChip(): boolean {
+onMounted(() => {
+  if (chips.value.length === 0)
+    return
+
+  chips.value.forEach((chip) => {
+    if (!validateChip(chip)) {
+      createErrorChip(chip)
+    }
+  })
+})
+
+function validateChip(chip: string): boolean {
   if (!props.validator)
     return true
 
   if (props.validator instanceof RegExp) {
-    return props.validator.test(inputValue.value)
+    return props.validator.test(chip)
   }
 
-  return props.validator(inputValue.value)
+  return props.validator(chip)
 }
 
 function handleKeyDown(e: KeyboardEvent) {
   const shouldCreateNewChip = props.chipSeparators.includes(e.key) && !!inputValue.value
 
   if (shouldCreateNewChip) {
-    handleCreateChip()
+    handleCreateChip(inputValue.value)
+    inputValue.value = ''
   }
 }
 
-function handleCreateChip() {
-  const isValid = validateChip()
+function handleCreateChip(chip: string) {
+  const isValid = validateChip(chip)
 
   if (!isValid) {
-    createErrorChip()
+    createErrorChip(chip)
   }
 
-  chips.value = [...chips.value, inputValue.value]
-  inputValue.value = ''
+  chips.value = [...chips.value, chip]
 
   emit('chipsUpdated', chips.value)
 }
@@ -102,11 +117,10 @@ function handleChipRemoval(chip: string, chipIndex: number) {
   emit('chipsUpdated', chips.value)
 }
 
-function createErrorChip() {
-  const chipValue = inputValue.value
-  const currentChipCount = chipsWithErrors.value.get(chipValue) ?? 0
+function createErrorChip(chip: string) {
+  const currentChipCount = chipsWithErrors.value.get(chip) ?? 0
 
-  chipsWithErrors.value.set(chipValue, currentChipCount + 1)
+  chipsWithErrors.value.set(chip, currentChipCount + 1)
 }
 
 function removeErrorChip(chip: string) {

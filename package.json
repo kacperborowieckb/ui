@@ -14,6 +14,8 @@
     "dev:vue": "pnpm -C ./playground/vue run dev",
     "dev:nuxt": "pnpm -C ./playground/vue run dev",
     "test": "pnpm --filter './packages/**' run test",
+    "test:watch": "pnpm --filter './packages/**' run test:watch",
+    "test:coverage": "pnpm --filter './packages/**' run test:coverage",
     "typecheck": "pnpm --filter './packages/**' run typecheck",
     "release": "pnpm run lint && pnpm run typecheck && pnpm run test && changelogen --output CHANGELOG.md && jiti scripts/release.ts && pnpm -r run release:publish && git push --follow-tags",
     "prepare": "husky"
