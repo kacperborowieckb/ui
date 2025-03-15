@@ -10,7 +10,11 @@ export type MutationObserverElementRef = Ref<Node> | ReturnType<typeof useTempla
  * @param options options passed to `MutationObserver`
  * @returns observer ref
  */
-export function useMutationObserver(element: MutationObserverElementRef, mutationCallback: MutationCallback, options?: MutationObserverInit): Ref<MutationObserver | null> {
+export function useMutationObserver(
+  element: MutationObserverElementRef,
+  mutationCallback: MutationCallback,
+  options?: MutationObserverInit,
+): Ref<MutationObserver | null> {
   const observer = ref<MutationObserver | null>(null)
 
   onMounted(() => {

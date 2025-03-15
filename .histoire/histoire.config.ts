@@ -15,6 +15,18 @@ export default defineConfig({
 
   theme: {
     title: 'Kacper Borowiec - ui',
+    // favicon: './public/favicon.ico',
+    logo: {
+      square: './assets/icon.svg',
+      dark: './assets/icon.svg',
+      light: './assets/icon.svg',
+    },
+    colors: {
+      gray: {
+        700: '#020817',
+        750: '#020817',
+      },
+    },
   },
 
   vite: {
